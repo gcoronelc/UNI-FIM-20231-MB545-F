@@ -8,9 +8,9 @@
 - Horario 1: LUN de 14 a 17 Horas (Teoria)
 - Horario 2: VIE de 19 a 22 Horas (Practica)
 - Inicio: 27.MAR.2023
-- Delegado: Ricardo Roman
-- Subdelegado 1: 
-- Subdelegado 2: 
+- Delegado: Ricardo Roman Marengo
+- Subdelegado 1: Abigaíl Castañeda Dyer
+- Subdelegado 2: Farith Huamán Prada 961268373
 
 
 # DOCENTE
