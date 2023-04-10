@@ -8,7 +8,7 @@
 - Horario 1: LUN de 14 a 17 Horas (Teoria)
 - Horario 2: VIE de 19 a 22 Horas (Practica)
 - Inicio: 27.MAR.2023
-- Delegado: 
+- Delegado: Ricardo Roman
 - Subdelegado 1: 
 - Subdelegado 2: 
 
