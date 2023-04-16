@@ -10,7 +10,7 @@
 - Inicio: 27.MAR.2023
 - Delegado: Ricardo Roman Marengo
 - Subdelegado 1: Abigaíl Castañeda Dyer
-- Subdelegado 2: Farith Huamán Prada 961268373
+- Subdelegado 2: Farith Huamán Prada
 
 
 # DOCENTE
