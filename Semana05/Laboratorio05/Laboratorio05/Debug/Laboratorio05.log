@@ -1,0 +1,3 @@
+﻿  Reto.cpp
+D:\GITHUB\UNI\UNI-FIM-20231-MB545-F\Semana05\Laboratorio05\Laboratorio05\Reto.cpp(50,49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Laboratorio05.vcxproj -> D:\GITHUB\UNI\UNI-FIM-20231-MB545-F\Semana05\Laboratorio05\Debug\Laboratorio05.exe
