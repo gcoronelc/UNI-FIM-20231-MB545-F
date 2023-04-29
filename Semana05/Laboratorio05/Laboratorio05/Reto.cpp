@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 using namespace std;
 
 char leerChar(string etiqueta) {
@@ -6,6 +7,7 @@ char leerChar(string etiqueta) {
 	char respuesta;
 	// Proceso
 	cout << etiqueta; cin >> respuesta;
+	respuesta = toupper(respuesta);
 	// Reporte
 	return respuesta;
 }
@@ -37,7 +39,7 @@ float obtenerPorcDescuento(char categoria, char colegio) {
 	return respuesta;
 }
 
-int main() {
+int mainReto() {
 	// Variables
 	char categoria, colegio;
 	float pensionActual, porcDescuento, valorDescuento, valorPension;
