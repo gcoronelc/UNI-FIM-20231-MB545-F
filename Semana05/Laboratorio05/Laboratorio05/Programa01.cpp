@@ -28,7 +28,7 @@ long factorial3(int n) {
 	return f;
 }
 
-int main() {
+int main01() {
 	// Variables
 	int n;
 	long f1, f2, f3;

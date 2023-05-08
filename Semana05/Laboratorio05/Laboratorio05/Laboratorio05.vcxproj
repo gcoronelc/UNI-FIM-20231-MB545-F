@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Programa01.cpp" />
+    <ClCompile Include="Programa02.cpp" />
+    <ClCompile Include="Programa03.cpp" />
+    <ClCompile Include="Programa04.cpp" />
+    <ClCompile Include="Programa05.cpp" />
+    <ClCompile Include="Programa06.cpp" />
     <ClCompile Include="Reto.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
