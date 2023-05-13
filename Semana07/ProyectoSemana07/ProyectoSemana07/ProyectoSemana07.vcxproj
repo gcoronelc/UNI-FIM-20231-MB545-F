@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ejer1.cpp" />
-    <ClCompile Include="ejer2.cpp" />
-    <ClCompile Include="ejer3.cpp" />
+    <ClCompile Include="gabriel.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
