@@ -1,0 +1,122 @@
+#include<iostream>
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#include<windows.h>
+
+using namespace std;
+
+int main(){
+    int opt_p;
+    int ver = 0;
+
+    int n;
+    int *m1 = new int [n];
+    int *m2 = new int [n];
+    
+    int d;
+    int cd = 0;
+    goto menu;
+
+    menu:
+
+    printf("\n\n=========================================\n\n     Trabajando con arreglos\n\n     Menu de opciones\n\n=========================================\n\n\n");
+    printf("    1.- Generar arreglos\n    2.- Mostrar arreglos\n    3.- Mostrar elementos comunes\n    4.- Mostrar arreglo suma\n    5.- Salir\n");
+    printf("\n=========================================\n\nOpcion? ");
+    cin >> opt_p;
+    switch (opt_p)
+    {
+    case 1:
+        goto op1;
+        break;
+    case 2:
+        if(ver == 0){
+            printf("Genere las matrices!\n\n");
+            main();
+        }
+        else if(ver == 1){
+            goto op2;
+        }
+        else
+            printf("Error generalizado, reinicie el programa.\n");
+        break;
+    case 3:
+        goto op3;
+        break;
+    case 4:
+        goto op4;
+        break;
+    case 5:
+        cout << "\nFin del programa, nos vemos luego...\n";
+        return 0;
+        break;
+    default:
+        printf("No existe esa opcion, intente otra vez...\n");
+        Sleep(3000);
+        goto menu;
+    }
+
+    op1:
+    
+    printf("Inserte el numero de elementos para los dos arreglos: ");
+    cin >> n;
+    if(n > 0){
+        ver = 1;
+        srand(time(NULL));
+        for(int i = 0; i < n ; i++){
+            m1[i] = rand()%100;
+            m2[i] = rand()%100;
+        }
+        Sleep(1500);
+        printf("\nGenerados exitosamente\n");
+        Sleep(2500);
+        goto menu;
+    }
+    else{
+        printf("Error al insertar valor. Intente otra vez\n");
+        main();
+    }
+    op2:
+        cout << "Arreglo 1: [ ";
+        for(int s = 0; s < n;s++){
+            cout << m1[s] << " ";
+        }
+        cout << "]" << endl;
+        cout << "Arreglo 2: [ ";
+        for(int s = 0; s < n;s++){
+            cout << m2[s] << " ";
+        }
+        cout << "]" << endl;
+        Sleep(900*n);
+        goto menu;
+    op3:
+        int *dsp = new int[d];
+        dsp[0] = -1;
+        for(int i = 0;i < n;i++){
+            for(int j = 0; j < n;j++){
+                if(m1[i]==m2[j]){
+                    dsp[cd] = (m1[i]+m2[j])/2;
+                    cd++;}
+            }
+        }
+        if(dsp[0] == -1)
+            cout << "\nNo hay elementos en comun...\n";
+        else{
+            cout << "Los elementos en comun son: ";
+            for(int i = 0;i < cd;i++){
+                cout << dsp[i] << " ";
+            }
+        }
+        cout << endl; 
+        Sleep(1000*(cd + 1));
+        goto menu;
+    op4:
+        int *sm = new int[n];
+        for(int i = 0; i < n;i++){
+            sm[i] = m1[i] + m2[i];
+            cout << sm[i] << " ";
+        }
+        cout << endl;
+        Sleep(900*n);
+        goto menu;
+}
