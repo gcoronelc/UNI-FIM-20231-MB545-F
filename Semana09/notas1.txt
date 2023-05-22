@@ -1,0 +1,6 @@
+
+PROGRAMACION ORIENTADA A OBJETOS 
+Nro 	Nombre 	Nota 1 	Nota 2 	Promedio 	Condicion 
+-------------------------------------------------------------
+1	Matias	15	16	15		aprobado
+2	Marcos	17	15	16		aprobado

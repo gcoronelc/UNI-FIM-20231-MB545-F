@@ -27,11 +27,11 @@ int main(){
 	
 	// Proceso
 	do{
-		// Datos
+		// Leer una linea
 		cout << endl;
 		cout << "Nueva linea para el archivo:" << endl;
 		getline(cin, texto);
-
+		// Agrega la linea al archivo.
 		archivo << texto << endl;
 		// Consulta
 		cout << endl;

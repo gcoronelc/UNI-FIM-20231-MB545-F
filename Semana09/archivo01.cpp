@@ -27,6 +27,7 @@ int main() {
 	archivo << "Este es un ejemplo de archivo.\n";
 	archivo << "Esto se pone bueno.\n";
 	archivo << "Ahora todos mis datos iran a archivos.\n";
+	archivo << "Archivos para generar reportes.\n";
 
 	// Cerrar el archivo
 	archivo.close();
