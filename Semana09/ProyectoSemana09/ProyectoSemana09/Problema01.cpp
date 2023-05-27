@@ -61,8 +61,8 @@ void menu01() {
 	int catElegida, participantes, porcGanancia;
 	Venta venta;
 	// Datos
-	categorias = "1. Programación,2. Ofimática,";
-	categorias += "3. Administración,4. Otros";
+	categorias = "1. Programacion,2. Ofimatica,";
+	categorias += "3. Administracion,4. Otros";
 	// Lectura
 	creaMenu("CATEGORIA", categorias, ',');
 	catElegida = leerEntero("Opcion [1,4]: ", 1, 4);
@@ -78,6 +78,7 @@ void menu01() {
 	venta.categoria = getNombreCategoria(catElegida);
 	venta.descripcion = descripcion;
 	venta.participantes = participantes;
+	ventas.push_back(venta);
 	// Reporte
 	cout << "\n";
 	cout << "Categoria: " << venta.categoria << "\n";
@@ -88,7 +89,14 @@ void menu01() {
 }
 
 void menu02() {
-	cout << "Opcion 2";
+	cout << "LISTADO DE VENTAS" << endl;
+	cout << "CATEGORIA\tIMPORTE\tIMPUESTO\tTOTAL\tCOMISION\n";
+	cout << "==============================================================\n";
+	for(Venta r: ventas){
+		cout << r.categoria << "\t" << r.importe << "\t" << r.impuesto;
+		cout << "    \t" << r.total << "\t" << r.comision <<"\n";
+	}
+	cout << "==============================================================\n";
 }
 
 void menu03() {
@@ -103,12 +111,12 @@ void menu04() {
 int main() {
 	// Variables
 	string titulo = "CURSOS PARA PROFESIONALES";
-	string menu = "1. Registrar Venta,2. Listado de Ventas,3. Resumen de Ventas,4. Salir";
+	string menu = "1. Registrar Venta|2. Listado de Ventas|3. Resumen de Ventas|4. Salir";
 	int op;
 	// Control del menu
 	do {
 		system("cls");
-		creaMenu(titulo, menu, ',');
+		creaMenu(titulo, menu, '|');
 		op = leerEntero("Opcion: ", 1, 4);
 		// Procesar menu
 		system("cls");

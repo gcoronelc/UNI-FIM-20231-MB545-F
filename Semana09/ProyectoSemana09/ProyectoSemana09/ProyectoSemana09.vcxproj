@@ -22,7 +22,7 @@
     <ClInclude Include="libreria2023.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problema01.cpp" />
+    <ClCompile Include="DemoLibreris2023.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

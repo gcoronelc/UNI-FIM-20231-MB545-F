@@ -11,11 +11,11 @@ int main() {
 	string frase;
 	// Menu
 	string titulo = "SISTEMA DE VENTAS";
-	string opciones = "1 Opcion1,2 Opcion2,3 Opcion3,4 Salir";
-	creaMenu(titulo,opciones, ',');
+	string opciones = "1 Venta|2 Listado|3 Resumen|4 Salir";
+	creaMenu(titulo,opciones, '|');
 	op = leerEntero("Opcion: ", 1, 4);
 	// Lectura
-	fflush(stdin);
+	//fflush(stdin);
 	frase = leerCadena("Ingresa una frase:"); 
 	algo = leerEntero("Ingrese un numero entero: ");
 	precio = leerEntero("Ingrese precio (>0): ", 1);
