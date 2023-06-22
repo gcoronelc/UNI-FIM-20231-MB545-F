@@ -1,0 +1,17 @@
+ID|TIPO|HORASXDIA|DIAS|HIJOS|INGRESOS|BONO1|BONO2|NETO
+1|1|6|20|0|18000|0|0|18000
+2|3|4|25|1|10000|60|0|10060
+3|2|5|20|2|12000|140|0|12140
+4|1|4|22|0|13200|0|0|13200
+5|2|6|25|0|18000|0|0|18000
+6|1|4|26|1|15600|80|0|15680
+7|2|7|20|2|16800|140|0|16940
+8|3|6|22|3|13200|180|0|13380
+9|1|5|22|0|16500|0|0|16500
+10|2|7|22|1|18480|70|500|18550
+RESUMEN
+Cantidad de empleado de tipo 1: 4
+Cantidad de empleado de tipo 2: 4
+Cantidad de empleado de tipo 3: 2
+El importe total de la planilla: 152450
+El pago promedio por empleado: 15245
