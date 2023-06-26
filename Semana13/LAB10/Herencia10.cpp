@@ -1,5 +1,5 @@
 /*
-En este ejemplo se ve la herencia en un ejemplo sencillo.
+En este programa se ve la herencia en un ejemplo sencillo.
 La clase hija puede crear sus propios metodos ampliando la funcionalidad.
 */
 
@@ -13,6 +13,9 @@ class Clase1{
 		Clase1(){
 		}
 		int sumar(int n1, int n2){
+			return (n1+n2);
+		}
+		float sumar(float n1, float n2){
 			return (n1+n2);
 		}
 	
@@ -36,6 +39,7 @@ int main(){
 	Clase2 objeto;
 	
 	cout << "6 + 7 = " << objeto.sumar(6,7) << endl;
+	cout << "6 + 7 = " << objeto.sumar(6.5f,7.5f) << endl;
 	cout << "6 * 7 = " << objeto.producto(6,7) << endl;
 	
 	system("pause");
