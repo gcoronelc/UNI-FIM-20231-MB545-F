@@ -1,0 +1,13 @@
+Boton Limpiar
+---------------------------------
+UpdateData(1);
+edt_temperatura = 0;
+rb_uni_origen = 0;
+chk_celsius = 0;
+...
+edt_respuesta = _T("");
+UpdateData(0);
+
+
+
+
